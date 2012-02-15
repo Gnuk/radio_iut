@@ -1,0 +1,12 @@
+body{
+	margin: auto;
+	padding: 0px;
+	font-family:"Ubuntu", sans-serif;
+	background: #D9D7D7;
+	text-align : center;
+}
+#contenu{
+	border-radius: 10px;
+	padding: 10px;
+	background: rgba(240,240,240,0.75);
+}

@@ -1,0 +1,16 @@
+ m    m   "        #    m"                
+ "m  m" mmm     mmm#   mmm    mmm    mmm  
+  #  #    #    #" "#  #"  #  #" "#  #   " 
+  "mm"    #    #   #  #""""  #   #   """m 
+   ##   mm#mm  "#m##  "#mm"  "#m#"  "mmm" 
+
+= Les formats à mettre obligatoirement =
+ * webm
+ * mp4
+
+= Formats conseillés =
+ * ogv ou ogg (il est conseillé de mettre ogg pour Firefox (une vidéo ogv peut être renommée en ogg sans conversion))
+
+= Formats déconseillés =
+ * avi
+ * flv

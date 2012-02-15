@@ -1,0 +1,218 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family:"Ubuntu", sans-serif;
+	background: #D9D7D7 url('../images/fond.png') no-repeat center;
+}
+
+*{
+	outline: none;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	font-style: none;
+}
+
+p, ul{
+	margin: 0px;
+	padding: 0px;
+}
+#logo{
+	height: 250px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-image: url('../images/cable_h.png');
+	background-repeat: repeat-x;
+	background-position: bottom right;
+}
+#header{
+	background-image: url('../images/cable_tl.png'), url('../images/cable_tr.png');
+	background-position: bottom left, bottom right;
+	background-repeat: no-repeat, no-repeat;
+}
+
+#header h1{
+	display: none;
+}
+
+#logo .radio_iut{
+	position: absolute;
+	margin-top: 25px;
+	width: 450px;
+	margin-left: -150px;
+	z-index: 5;
+}
+
+#logo .play{
+	position: absolute;
+	margin-left: 300px;
+	z-index: 4;
+	margin-top: 25px;
+}
+
+#mDroite{
+	float:right;
+	width: 250px;
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
+
+#mGauche{
+	float: left;
+	width: 250px;
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
+
+#page{
+	margin: auto;
+	min-width: 800px;
+	max-width: 1024px;
+}
+
+#corps{
+	/* CORPS */
+	background-image: url('../images/cable_v.png'), url('../images/cable_v.png');
+	background-position: bottom left, bottom right;
+	background-repeat: repeat-y, repeat-y;
+}
+
+#corps{
+	text-align: justify;
+}
+
+#page li .element{
+	/* ELEMENTS */
+}
+#menu li [alt="Copyright"]{
+	margin-top: 50px;
+}
+#menu li [alt="Emission"]{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: -30px;
+}
+#menu li [alt="Bonus"]{
+	margin-left: 30px;
+}
+
+#menu ul li, #header ul li{
+	list-style-type: none;
+}
+
+.rot5{
+	transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	-o-transform:rotate(5deg);
+}
+
+#menu li [alt="Emission"], .rot-5{
+	transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+	-moz-transform:rotate(-5deg);
+	-o-transform:rotate(-5deg);
+}
+
+#menu li [alt="Equipe"], #menu li [alt="Play"], #menu li [alt="Copyright"], .rot10{
+	transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-o-transform:rotate(10deg);
+}
+
+#menu li [alt="Bonus"], #menu li [alt="Contact"], .rot-10{
+	transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+}
+
+.clear{
+	clear: both;
+}
+#foot{
+	background-image: url('../images/cable_bl.png'), url('../images/cable_br.png');
+	background-position: top left, top right;
+	background-repeat: no-repeat, no-repeat;
+	/**background: blue;**/
+	height: 170px;
+}
+#fcable{
+	background-image: url('../images/cable_h.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	height: 170px;
+	margin-right: 250px;
+	margin-left: 250px;
+	text-align: right;
+}
+#fcable p{
+	margin-top: 25px;
+	margin-right: -25px;
+	display: inline-block;
+}
+
+#menu .element:hover{
+	padding-left: 20px;
+	transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+}
+#menu .element:hover, #menu .element{
+	transition-property: all;
+	transition-duration: 1s;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: all;
+	-moz-transition-duration: 1s;
+	-o-transition-property: all;
+	-o-transition-duration: 1s;
+}
+#corps{
+	padding-right:250px;
+	padding-left: 250px;
+}
+#corps li{
+	/*list-style-type: none;*/
+	list-style-position: inside;
+}
+#corps li{
+	padding-left: 1em;
+}
+#corps p{
+	padding: 10px 0px 10px;
+}
+.spaceList li{
+	padding: 10px 0px 10px;
+}
+.importantSize{
+	font-size: 20px;
+}
+/*#header img[alt="Play"], #header img[alt="Play"]:hover{
+	transition-property: all;
+	transition-duration: 15s;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 15s;
+	-moz-transition-property: all;
+	-moz-transition-duration: 15s;
+	-o-transition-property: all;
+	-o-transition-duration: 15s;
+}*/
+
+/*#header img[alt="Play"]:hover{
+	transform:rotate(-360deg);
+	-webkit-transform:rotate(-360deg);
+	-moz-transform:rotate(-360deg);
+	-o-transform:rotate(-360deg);
+}*/
+#contenu{
+	border-radius: 10px;
+	padding: 10px;
+	background: rgba(240,240,240,0.75);
+}

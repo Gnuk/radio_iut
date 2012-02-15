@@ -1,0 +1,10 @@
+   mm              #    "          
+   ##   m   m   mmm#  mmm     mmm  
+  #  #  #   #  #" "#    #    #" "# 
+  #mm#  #   #  #   #    #    #   # 
+ #    # "mm"#  "#m##  mm#mm  "#m#" 
+
+= Les formats ci dessous doivent être mis pour une bonne compatibilité audio =
+ * wav
+ * ogg (vorbis)
+ * mp3 (lame)
